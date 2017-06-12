@@ -80,13 +80,7 @@ header{
 
 header h1{
 	/*how to get Birds of Paradise typeface????*/
-	@font-face {
-	    font-family: Birds of Paradise;
-	    	src: url(./MyStore/Birds of Paradise.ttf);
-		}
-		div {
-	    	font-family: Birds of Paradise;
-		}
+	font-family: cursive;
 	letter-spacing: .03em;
 	margin: 0;
 }
