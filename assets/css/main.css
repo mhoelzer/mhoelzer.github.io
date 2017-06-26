@@ -1,5 +1,8 @@
 @import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,900");
 @import url("font-awesome.min.css");
+@font-face{
+	font-family: thickedy_grunge; src: url(thickedy_grunge.otf);
+}
 
 /*
 	Big Picture by HTML5 UP
@@ -16,6 +19,7 @@
 		font-size: 100%;
 		font: inherit;
 		vertical-align: baseline;
+		font-family: thickedy_grunge;
 	}
 
 	article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
