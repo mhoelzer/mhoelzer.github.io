@@ -2147,6 +2147,9 @@
 						padding: 0 0.5em 0 0.5em;
 						outline: 0;
 					}
+						#header nav ul li a:hover {
+							color: #39454b;
+						}
 
 		@media screen and (max-width: 736px) {
 
@@ -2528,7 +2531,7 @@
 /* Intro */
 
 	#intro {
-	background: url("../../P1010163.JPG") no-repeat center center fixed;
+	background: url("../../images/P1010163.JPG") no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -2538,7 +2541,7 @@
 /* One */
 
 	#one {
-	background: url("../../P1010325.JPG") no-repeat center center fixed;
+	background: url("../../images/P1010325.JPG") no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -2548,7 +2551,7 @@
 /* Two */
 
 	#two {
-	background: url("../../DSCN2151flipped.JPG") no-repeat center center fixed;
+	background: url("../../images/DSCN2151flipped.JPG") no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -2588,3 +2591,11 @@
 			}
 
 		}
+
+/* FOR THE IMAGES AND LINKS TO WORK */
+.portfolio-gallery .row .col-md-6 a:hover {
+	color: #FF9A3F;
+}
+.portfolio-gallery .row .col-md-6 a:focus {
+	color: #F87217;
+}
